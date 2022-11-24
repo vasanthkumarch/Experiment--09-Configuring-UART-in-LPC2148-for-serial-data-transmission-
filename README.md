@@ -42,9 +42,11 @@ UART0 Interrupt Identification Register (U0IIR): The Interrupt Identification Re
 
 UART0 FIFO Control Register (U0FCR): The FIFO Control Register controls the operation of the RX and TX FIFOs in UART0. Bit 0 is used to enable or disable the FIFO. Bit 1 is used to reset the RX FIFO. Bit 2 is used to reset the TX FIFO. Bits 6 and 7 are used to control when the interrupt must occur i.e. after how many receiver characters.
 UART0 Line Control Register (U0LCR): The Line Control Register is used to set the format of the data which is transmitted or received.
+
+
 ![image](https://user-images.githubusercontent.com/36288975/203729175-35823e84-cdad-4cd2-8334-2a7477de528f.png)
 
-Figure -02 UART interface virtual terminal
+## Figure -02 UART interface virtual terminal
 
 ### Kiel - Program 
 
